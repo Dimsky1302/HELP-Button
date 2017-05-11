@@ -7,9 +7,9 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
     int a = 0;
     String choice;
 
-    private double[] lg = { -6.965416, -6.967972, -6.971944, -6.972700 ,-6.972157, -6.970964, -6.971262};
-    private double[] lt = { 107.638015, 107.637425, 107.636427,  107.635140,  107.633541, 107.631857, 107.631213};
-    private String[] time = {"10 menit", "9 menit", "7 menit", "5 menit", "3 menit", "1 menit", "0 menit"};
+    private double[] lg = {-6.962519, -6.965416, -6.967972, -6.971944, -6.972700 ,-6.972157, -6.970964, -6.971262};
+    private double[] lt = {107.638433, 107.638015, 107.637425, 107.636427,  107.635140,  107.633541, 107.631857, 107.631213};
+    private String[] time = {"12 menit","10 menit", "9 menit", "7 menit", "5 menit", "3 menit", "1 menit", "0 menit"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
